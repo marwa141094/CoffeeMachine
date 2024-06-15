@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Web API", "1 - Web API", "{EDBBC077-AC5F-43ED-8065-DF42891EF578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMachine.AspNetCore", "src\CoffeeMachine.AspNetCore\CoffeeMachine.AspNetCore.csproj", "{6A678145-CDAC-4774-AD20-EDBE45F5C49F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Solution Items", "0 - Solution Items", "{1B880409-58A2-4ECE-ADF7-6BADBE80FBBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Business Logical Layer", "2 - Business Logical Layer", "{7D979D08-4F37-4A6E-B83D-A231C1B067B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMachine", "src\CoffeeMachine\CoffeeMachine.csproj", "{742F2955-E0FD-41DA-AB43-BE60BE378CE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A678145-CDAC-4774-AD20-EDBE45F5C49F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A678145-CDAC-4774-AD20-EDBE45F5C49F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A678145-CDAC-4774-AD20-EDBE45F5C49F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A678145-CDAC-4774-AD20-EDBE45F5C49F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{742F2955-E0FD-41DA-AB43-BE60BE378CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{742F2955-E0FD-41DA-AB43-BE60BE378CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{742F2955-E0FD-41DA-AB43-BE60BE378CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{742F2955-E0FD-41DA-AB43-BE60BE378CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6A678145-CDAC-4774-AD20-EDBE45F5C49F} = {EDBBC077-AC5F-43ED-8065-DF42891EF578}
+		{742F2955-E0FD-41DA-AB43-BE60BE378CE7} = {7D979D08-4F37-4A6E-B83D-A231C1B067B1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3C7D544-46F3-4588-916D-39EABA0D1145}
+	EndGlobalSection
+EndGlobal
