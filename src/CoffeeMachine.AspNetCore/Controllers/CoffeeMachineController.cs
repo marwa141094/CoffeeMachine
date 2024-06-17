@@ -1,6 +1,5 @@
 ﻿using CoffeeMachine;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
 using System.Threading.Tasks;
 
 [ApiController]
@@ -15,14 +14,14 @@ public class CoffeeMachineController : ControllerBase
     }
 
     [HttpGet("beverages")]
-    public async Task<ActionResult<IEnumerable<string>>> GetBeverages()
+    public async Task<IActionResult> GetBeveragesAsync()
     {
         var beverages = await this.coffeeMachineManager.GetBeveragesAsync();
         return Ok(beverages);
     }
 
     [HttpGet("beverages/{name}")]
-    public async Task<ActionResult<decimal>> GetBeveragePrice(string name)
+    public async Task<IActionResult> GetBeveragePriceAsync(string name)
     {
         var price = await this.coffeeMachineManager.GetBeveragePriceAsync(name);
         if (price == null)

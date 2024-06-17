@@ -5,13 +5,21 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Web API", "1 - Web API", "{EDBBC077-AC5F-43ED-8065-DF42891EF578}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMachine.AspNetCore", "src\CoffeeMachine.AspNetCore\CoffeeMachine.AspNetCore.csproj", "{6A678145-CDAC-4774-AD20-EDBE45F5C49F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeeMachine.AspNetCore", "src\CoffeeMachine.AspNetCore\CoffeeMachine.AspNetCore.csproj", "{6A678145-CDAC-4774-AD20-EDBE45F5C49F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Solution Items", "0 - Solution Items", "{1B880409-58A2-4ECE-ADF7-6BADBE80FBBC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Business Logical Layer", "2 - Business Logical Layer", "{7D979D08-4F37-4A6E-B83D-A231C1B067B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMachine", "src\CoffeeMachine\CoffeeMachine.csproj", "{742F2955-E0FD-41DA-AB43-BE60BE378CE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeeMachine", "src\CoffeeMachine\CoffeeMachine.csproj", "{742F2955-E0FD-41DA-AB43-BE60BE378CE7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3B977A5F-FB32-437E-A8E4-5F9F616109E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4E642C34-06AA-4B3C-BCD1-2C9DB399B595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMachine.Tests", "tests\CoffeeMachine.Tests\CoffeeMachine.Tests.csproj", "{4C75454E-C10E-4399-ABEE-4344E1C4A071}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMachine.AspNetCore.Tests", "tests\CoffeeMachine.AspNetCore.Tests\CoffeeMachine.AspNetCore.Tests.csproj", "{BED1055C-89C5-45E3-BDEF-5AA32373C6B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +35,14 @@ Global
 		{742F2955-E0FD-41DA-AB43-BE60BE378CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{742F2955-E0FD-41DA-AB43-BE60BE378CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{742F2955-E0FD-41DA-AB43-BE60BE378CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C75454E-C10E-4399-ABEE-4344E1C4A071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C75454E-C10E-4399-ABEE-4344E1C4A071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C75454E-C10E-4399-ABEE-4344E1C4A071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C75454E-C10E-4399-ABEE-4344E1C4A071}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BED1055C-89C5-45E3-BDEF-5AA32373C6B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BED1055C-89C5-45E3-BDEF-5AA32373C6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BED1055C-89C5-45E3-BDEF-5AA32373C6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BED1055C-89C5-45E3-BDEF-5AA32373C6B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,6 +50,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6A678145-CDAC-4774-AD20-EDBE45F5C49F} = {EDBBC077-AC5F-43ED-8065-DF42891EF578}
 		{742F2955-E0FD-41DA-AB43-BE60BE378CE7} = {7D979D08-4F37-4A6E-B83D-A231C1B067B1}
+		{3B977A5F-FB32-437E-A8E4-5F9F616109E6} = {1B880409-58A2-4ECE-ADF7-6BADBE80FBBC}
+		{4E642C34-06AA-4B3C-BCD1-2C9DB399B595} = {1B880409-58A2-4ECE-ADF7-6BADBE80FBBC}
+		{4C75454E-C10E-4399-ABEE-4344E1C4A071} = {7D979D08-4F37-4A6E-B83D-A231C1B067B1}
+		{BED1055C-89C5-45E3-BDEF-5AA32373C6B9} = {EDBBC077-AC5F-43ED-8065-DF42891EF578}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D3C7D544-46F3-4588-916D-39EABA0D1145}
